@@ -113,3 +113,20 @@
 
 //   }
 //   symbol()
+
+// Write a function to create a clock.
+// Note: The outcome will come every second.
+// Expected console output
+// 10:20:42
+// 10:20:43
+// 10:20:44
+// 10:20:45
+
+// const tick = () => {
+//   let day = new Date();
+// 	console.log(day.toLocaleTimeString());
+// };
+
+// let timer = setInterval(tick, 1000);
+
+
