@@ -130,3 +130,21 @@
 // let timer = setInterval(tick, 1000);
 
 
+Challenge:
+// Write a JavaScript function to validate if a given value type is a pure json object or not.
+// Sample:
+// console.log(isJson({location: 'Lekki'}))  true
+// console.log(isJson('chair'))  false
+// console.log(isJson(54))   false
+
+// function testJSON(obj){
+//     if (typeof(obj) === 'object'){
+//         return true;
+//     } else{
+//         return  false;
+//     }
+// }
+  
+// console.log(testJSON({input: 'value'}));
+
+
