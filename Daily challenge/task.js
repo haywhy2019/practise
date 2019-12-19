@@ -1,6 +1,5 @@
 
-
-//write a function that changes the  p pharagraph when the page is loaded
+// write a function that changes the  p pharagraph when the page is loaded
 
 // const first= document.getElementById('p1');
 // const second = document.getElementById('p2');
@@ -17,7 +16,7 @@
 // }
 
 // write a function that takes in compares two words and returnds false if a word contained in the
-//second is not in the first adn true if all the words in the latter is in the first
+// second is not in the first adn true if all the words in the latter is in the first
 
 
 
@@ -40,7 +39,7 @@
 
 
 
-  // write a function that returns the largest number in an array
+//   write a function that returns the largest number in an array
 
 //   function largestOfFour(arr) {
 //     let number = [];
@@ -56,7 +55,7 @@
 //     [1000, 1001, 857, 1]
 // ]))
 
-//write a function that sums a range of number from min to max
+// write a function that sums a range of number from min to max
 
 // function addNumber(arr){
 //   var sum = 0
@@ -67,7 +66,7 @@
 // }
 // addNumber([1,4])
 
-// // write a function that returns a unique string of letters
+// write a function that returns a unique string of letters
 
 // function uniqueStrings(a) {
 //   var word = ''
@@ -81,20 +80,20 @@
 // uniqueStrings('thequickbrownfoxjumpsoverthelazyfox')
 
 
-//write a function that sorts an array
+// write a function that sorts an array
 
-/* <button id="button">Click on me!</button>
+// <button id="button">Click on me!</button>
 
-<script>
-  button.onclick = function(event) {
-    if (event.altKey && event.shiftKey) {
-      alert('Gbosa!');
-    }
-  };
-</script> }*/
+// <script>
+//   button.onclick = function(event) {
+//     if (event.altKey && event.shiftKey) {
+//       alert('Gbosa!');
+//     }
+//   };
+// </script> }
 
-/*"Gbosa" would be alerted only when the if conditional statement is met, which
- is the altKey and shiftKey must be pressed when the onClick event occurs */
+// "Gbosa" would be alerted only when the if conditional statement is met, which
+//  is the altKey and shiftKey must be pressed when the onClick event occurs 
 
 // arr = []
 
@@ -130,7 +129,7 @@
 // let timer = setInterval(tick, 1000);
 
 
-//Challenge:
+// Challenge:
 // Write a JavaScript function to validate if a given value type is a pure json object or not.
 // Sample:
 // console.log(isJson({location: 'Lekki'}))  true
@@ -226,8 +225,8 @@
 // }
 // uniqueStrings('thequickbrownfoxjumpsoverthelazyfox')
 
-//check
-//https://www.khanacademy.org/computing/computer-programming/programming-natural-simulations
+// check
+// https://www.khanacademy.org/computing/computer-programming/programming-natural-simulations
 
 // Good morning @channel here is your morning challenge for today:
 // The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsius times 9/5, plus 32.
@@ -258,7 +257,7 @@
 // console.log(sortArray([25, 7, 34, 48]))
 
 
-Challenge:
+// Challenge:
 // Write a JavaScript function to validate if a given value type is a pure json object or not.
 // Sample:
 // console.log(isJson({location: 'Lekki'}))  true
@@ -335,7 +334,7 @@ Challenge:
 
 
 
-// ## Query / Find Documents
+//  Query / Find Documents
 // query the `movies` collection to
 // 1. get all documents
 // 1. get all documents with `writer` set to "Quentin Tarantino"
@@ -344,30 +343,30 @@ Challenge:
 // 1. get all movies released in the 90s
 // 1. get all movies released before the year 2000 or after 2010
 
-db.createCollection('movies')
-db.movies.insertMany([
+// db.createCollection('movies')
+// db.movies.insertMany([
 
-	{title : 'Fight Club',writer : 'Chuck Palahniuk',
-		year : '1999',actors : ['Brad Pitt','Edward Norton']},
+// 	{title : 'Fight Club',writer : 'Chuck Palahniuk',
+// 		year : '1999',actors : ['Brad Pitt','Edward Norton']},
 
-	{title : 'Pulp Fiction',writer : 'Quentin Tarantino'
-		year : '1994',actors : [  'John Travolta','Uma Thurman']},
+// 	{title : 'Pulp Fiction',writer : 'Quentin Tarantino'
+// 		year : '1994',actors : [  'John Travolta','Uma Thurman']},
 
-	{title : 'Inglorious Basterds',writer : 'Quentin Tarantino',
-		year : '2009',actors : ['Brad Pitt','Diane Kruger','Eli Roth']},
+// 	{title : 'Inglorious Basterds',writer : 'Quentin Tarantino',
+// 		year : '2009',actors : ['Brad Pitt','Diane Kruger','Eli Roth']},
 
-	{title :' The Hobbit: An Unexpected Journey',writer : 'J.R.R. Tolkein',
-		year : "2012",franchise : 'The Hobbit'},
+// 	{title :' The Hobbit: An Unexpected Journey',writer : 'J.R.R. Tolkein',
+// 		year : "2012",franchise : 'The Hobbit'},
 
-	{title : 'The Hobbit: The Battle of the Five Armies',writer : 'J.R.R. Tolkein'
-		year : '2012',franchise : 'The Hobbit',
-		synopsis : 'Bilbo and Company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.'
-	},
+// 	{title : 'The Hobbit: The Battle of the Five Armies',writer : 'J.R.R. Tolkein'
+// 		year : '2012',franchise : 'The Hobbit',
+// 		synopsis : 'Bilbo and Company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.'
+// 	},
 
-	{title : "Pee Wee Herman's Big Adventure"},
+// 	{title : "Pee Wee Herman's Big Adventure"},
 
-	{title: 'Avatar'}
-])
+// 	{title: 'Avatar'}
+// ])
 
 // db.movies.find().pretty()
 
